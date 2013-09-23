@@ -1,8 +1,3 @@
-<#
-https://wiki.eng.vmware.com/CPD/SRM/Proposals/DbToolDesign
-https://wiki.eng.vmware.com/User:Mkolechkin/SRM/DB
-#>
-
 [CmdletBinding(
    DefaultParameterSetName = 'TOOL_TYPE')]
    param(
