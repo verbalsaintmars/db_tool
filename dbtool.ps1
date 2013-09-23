@@ -64,12 +64,12 @@ function Init-Variables
       #>
       [string]$script:DSN_Primary = "shc_pp_32_localbuild";
       [string]$script:UID_Primary = "ad";
-      [Security.SecureString]$script:PWD_Primary = 'ca$hc0w' |
+      [Security.SecureString]$script:PWD_Primary = '' |
         ConvertTo-SecureString -AsPlainText -Force;
 
       [string]$script:DSN_Secondary = "shc_ss_32_localbuild";
       [string]$script:UID_Secondary = "ad";
-      [Security.SecureString]$script:PWD_Secondary = 'ca$hc0w' |
+      [Security.SecureString]$script:PWD_Secondary = '' |
         ConvertTo-SecureString -AsPlainText -Force;
 
       <#
